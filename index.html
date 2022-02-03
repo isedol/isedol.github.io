@@ -1,107 +1,98 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html lang="ko" xml:lang="ko" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
 
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 
-<title>이세돌 노래</title>
+  <title>이세돌 노래</title>
 
 </head>
+
 <body>
   <script type="text/javascript">
-    function filter(){
+    function filter() {
 
       var value, name, item, i;
 
       value = document.getElementById("value").value.toUpperCase();
       item = document.getElementsByClassName("item");
 
-      for(i=0;i<item.length;i++){
+      for (i = 0; i < item.length; i++) {
         name = item[i].getElementsByClassName("name");
-        if(name[0].innerHTML.toUpperCase().indexOf(value) > -1){
+        if (name[0].innerHTML.toUpperCase().indexOf(value) > -1) {
           item[i].style.display = "flex";
-        }else{
+        } else {
           item[i].style.display = "none";
         }
       }
     }
-</script>
+  </script>
   <div class="searchbox">
-     <div class="header">
-       <h1>Search</h1>
-       <input onkeyup="filter()" type="text" id="value" placeholder="Type to Search">
-     </div>
+    <div class="header">
+      <h1>Search</h1>
+      <input onkeyup="filter()" type="text" id="value" placeholder="Type to Search">
+    </div>
 
-     <div class="container">
+    <div class="container">
 
-       <div class="item">
-         <span class="icon">별</span>
-         <span class="name">별이 하나가되어</span>
-       </div>
+      <div class="item">
+        <span class="icon">릴</span>
+        <span class="icon">뢴</span>
+        <span class="name">마지막 재회</span>
+        <audio controls>
+          <source src="https://docs.google.com/uc?export=open&id=1kbM_ZxPi2nwmJ2PI7o8ASJSdZwDzBg2-" type='audio/mp3' />
+        </audio>
+      </div>
 
-       <div class="item">
-         <span class="icon">O</span>
-         <span class="name">츄즈미</span>
-       </div>
+      <div class="item">
+        <span class="icon">주</span>
+        <span class="icon">해</span>
+        <span class="icon">징</span>
+        <span class="name">츄즈미</span>
+        <audio controls>
+          <source src="https://docs.google.com/uc?export=open&id=1KB4OWr9r4uJB1PGrK8MfiCYHMmggZ1oN" type='audio/mp3' />
+        </audio>
+      </div>
 
-       <div class="item">
-         <span class="icon">M</span>
-         <span class="name">Mandarin</span>
-       </div>
+      <div class="item">
+        <span class="icon">M</span>
+        <span class="name">Mandarin</span>
+      </div>
 
-       <div class="item">
-         <span class="icon">S</span>
-         <span class="name">Strawberry</span>
-       </div>
+      <div class="item">
+        <span class="icon">S</span>
+        <span class="name">Strawberry</span>
+      </div>
 
-       <div class="item">
-         <span class="icon">W</span>
-         <span class="name">Watermelon</span>
-       </div>
+      <div class="item">
+        <span class="icon">W</span>
+        <span class="name">Watermelon</span>
+      </div>
 
-       <div class="item">
-         <span class="icon">G</span>
-         <span class="name">Grape</span>
-       </div>
+      <div class="item">
+        <span class="icon">G</span>
+        <span class="name">Grape</span>
+      </div>
 
-       <div class="item">
-         <span class="icon">P</span>
-         <span class="name">Pear</span>
-       </div>
+      <div class="item">
+        <span class="icon">P</span>
+        <span class="name">Pear</span>
+      </div>
 
-       <div class="item">
-         <span class="icon">C</span>
-         <span class="name">Cherry</span>
-       </div>
-     </div>
-   </div>
+      <div class="item">
+        <span class="icon">C</span>
+        <span class="name">Cherry</span>
+      </div>
+    </div>
+  </div>
 </body>
- 
-<b>
-  <font size="16em"> 릴 / 아 / 징 / 구 / 챤 </font><br>
 
-  <font size="4em">
-    마지막 재회 (음량낮추셈)
-  <br>
-<embed
-  frameborder="0"
-  width="400"
-  height="150"
-  src="https://drive.google.com/file/d/1kbM_ZxPi2nwmJ2PI7o8ASJSdZwDzBg2-/preview">
-</embed>
-<br><br>
-해즈미 <br>
-<iframe
-  frameborder="0"
-  width="400"
-  height="150"
-  src="https://drive.google.com/file/d/1KB4OWr9r4uJB1PGrK8MfiCYHMmggZ1oN/preview">
-</iframe>
-</font><b>
- </html>
+</html>
