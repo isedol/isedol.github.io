@@ -40,7 +40,6 @@ body{
     justify-content: space-between;
     align-items: center;
     margin: 3% 0px;
-    display: flex;
   }
 
   @media ( min-width: 481px ) {
