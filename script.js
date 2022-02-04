@@ -53,6 +53,7 @@ function filter() {
       else if(c=='챤') $(".container").load("vichan.html");
   }
   
+  //액티브
   var btnContainer = document.getElementById("myBtnContainer");
   var btns = btnContainer.getElementsByClassName("btn");
   for (var i = 0; i < btns.length; i++) {
