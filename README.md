@@ -16,3 +16,5 @@ https://beableto.tistory.com/m/entry/html-in-html-html%EC%97%90%EC%84%9C-html%EC
 제이쿼리로 곡추가
 
 구글드라이브 크롤링 -> txt ->j쿼리
+
+서브소닉
