@@ -37,10 +37,11 @@ body{
   }
   .item{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin: 3% 0px;
     display: flex;
+    margin-right: 50px;
   }
   .icon{
     width: 25px;
