@@ -37,7 +37,7 @@ body{
   }
   .item{
     display: flex;
-  justify-content: space-between;
+    justify-content: space-between;
     margin: 3% 0px;
     display: flex;
     align-items: center;
@@ -61,28 +61,6 @@ body{
 
 
 
-
-
-
-  .container {
-  overflow: hidden;
-}
-
-.filterDiv {
-  float: left;
-  background-color: #2196F3;
-  color: #ffffff;
-  width: 100px;
-  line-height: 100px;
-  text-align: center;
-  margin: 2px;
-  display: none; /* Hidden by default */
-}
-
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block;
-}
 
 /* Style the buttons */
 .btn {
