@@ -37,10 +37,10 @@ body{
   }
   .item{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     margin: 3% 0px;
     display: flex;
-    align-items: center;
   }
   .icon{
     width: 25px;
