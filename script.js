@@ -23,7 +23,7 @@ function filter() {
     }
   }
 
-
+  // 검색은 통합으로 되는 필터
   // function filter2(c) {
 
   //   var item, i, icon;
