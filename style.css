@@ -37,7 +37,7 @@ body{
   }
   .item{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin: 3% 0px;
     display: flex;
@@ -78,8 +78,8 @@ body{
 
 /* Add a dark background to the active button */
 .btn.active {
-  background-color: #666;
-  color: white;
+  background-color: #ddd;
+  color: black;
 }
 
 
