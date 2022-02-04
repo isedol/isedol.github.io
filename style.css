@@ -42,6 +42,20 @@ body{
     margin: 3% 0px;
     display: flex;
   }
+
+  @media ( min-width: 481px ) {
+    .item{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 3% 0px;
+      display: flex;
+      margin-left: 50px;
+      margin-right: 50px;
+      
+    }
+  }
+
   .icon{
     width: 25px;
     height: 25px;
