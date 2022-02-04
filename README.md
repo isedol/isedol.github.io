@@ -14,4 +14,5 @@ https://www.websiteplanet.com/ko/blog/%EB%85%84%EC%97%90-%EC%93%B0%EA%B8%B0-%EC%
 https://beableto.tistory.com/m/entry/html-in-html-html%EC%97%90%EC%84%9C-html%EC%9D%84-%EB%B6%88%EB%9F%AC%EC%98%A4%EC%9E%90
 
 제이쿼리로 곡추가
-(구글드라이브 크롤링 -> txt ->j쿼리)
+
+구글드라이브 크롤링 -> txt ->j쿼리
