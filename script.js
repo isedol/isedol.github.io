@@ -52,14 +52,3 @@ function filter() {
       else if(c=='징') $(".container").load("jing.html");
       else if(c=='챤') $(".container").load("vichan.html");
   }
-  
-  //액티브
-  var btnContainer = document.getElementById("myBtnContainer");
-  var btns = btnContainer.getElementsByClassName("btn");
-  for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function() {
-      var current = document.getElementsByClassName("active");
-      current[0].className = current[0].className.replace(" active", "");
-      this.className += " active";
-    });
-  }
