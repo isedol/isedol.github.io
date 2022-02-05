@@ -1,3 +1,21 @@
+# html5-audio-player
+
+## 1. introduce
+html5 audio player(with playlist) using flexbox, svg, css animations and  js api.
+
+forked from @k-ivan at http://codepen.io/k-ivan/pen/pJMLmJ
+
+demo: [html5-audio-player](https://likev.github.io/html5-audio-player/ 'html5-audio-player demo')
+
+![html5-audio-player-screenshot](html5-audio-player.png)
+
+## 2. how to use
+1. insert Google Material Icons and AudioPlayer.css before `</head>`
+2. insert AudioPlayer.js before `</body>`
+3. use AP.init function
+
+code example:
+```html
 <!DOCTYPE html>
 <html >
   <head>
@@ -35,8 +53,8 @@
             autoPlay : true,
             notification: false,
             playList: [
-                {'icon': iconImage, 'title': '고양이', 'file': 'https://docs.google.com/uc?export=open&id=1N_f8KnfVssWdBsBQOLuqjsbwbNZZeZXw'},
-                {'icon': iconImage, 'title': '가을아침', 'file': 'https://docs.google.com/uc?export=open&id=1V1JHZsKGn8wNdFtaPtW2isSlGZcRNrJA'}
+                {'icon': iconImage, 'title': 'Try Everything', 'file': 'mp3/try-everything.mp3'},
+                {'icon': iconImage, 'title': 'Let It Go', 'file': 'mp3/let-it-go.mp3'}
           ]
         });
     </script>
@@ -44,3 +62,6 @@
 
   </body>
 </html>
+```
+
+it will work!
