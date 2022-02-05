@@ -6,3 +6,5 @@
 {'icon': iconImage, 'title': '가을아침', 'file': 'https://docs.google.com/uc?export=open&id=1V1JHZsKGn8wNdFtaPtW2isSlGZcRNrJA'}
 
 과같이 크롤링해서 html로 저장
+
+js 하나로 통합
