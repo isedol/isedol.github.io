@@ -98,7 +98,7 @@ var AudioPlayer = (function() {
     volume   : 0.5,
     autoPlay : false,
     notification: false,
-    playList : []
+    playList : [] //플레이리스트 기본형
   };
 
   function init(options) {
@@ -176,9 +176,9 @@ var AudioPlayer = (function() {
       return;
     }
 
-    audio.src = playList[index].file; //인덱스 파일
+    audio.src = playList[index].file; // src <- file
     audio.preload = 'none';
-    trackTitle.innerHTML = playList[index].title; //인덱스 타이틀
+    trackTitle.innerHTML = playList[index].title; // tracktitle <- title
     volumeBar.style.height = audio.volume * 100 + '%';
     volumeLength = volumeBar.css('height');
 
