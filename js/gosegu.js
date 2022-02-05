@@ -5,7 +5,7 @@ var iconImage = null;
 AP.init({
     container: '#player',//a string containing one CSS selector
     volume: 0.7,
-    autoPlay: true,
+    autoPlay: false,
     notification: false,
     playList: [
         { 'icon': iconImage, 'title': '10cm - 사랑은 은하수 다방에서', 'file': 'https://docs.google.com/uc?export=open&id=169y-7jBhiPxgpEWg6tY3OAAa7Oo6IrDB' },

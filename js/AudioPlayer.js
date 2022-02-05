@@ -121,7 +121,7 @@ var AudioPlayer = (function() {
 
     document.querySelector(settings.container).insertBefore(player, null);
 
-    // get player elements
+    // get player elements 요소
     playBtn        = player.querySelector('.ap-toggle-btn');
     prevBtn        = player.querySelector('.ap-prev-btn');
     nextBtn        = player.querySelector('.ap-next-btn');
@@ -161,11 +161,11 @@ var AudioPlayer = (function() {
 
     apActive = true;
 
-    // Create playlist
+    // Create playlist 플레이리스트 생성
     renderPL();
     plBtn.addEventListener('click', plToggle, false);
 
-    // Create audio object
+    // Create audio object 오디오 오브젝트 생성
     audio = new Audio();
     audio.volume = settings.volume;
 
@@ -176,9 +176,9 @@ var AudioPlayer = (function() {
       return;
     }
 
-    audio.src = playList[index].file;
-    audio.preload = 'auto';
-    trackTitle.innerHTML = playList[index].title;
+    audio.src = playList[index].file; //인덱스 파일
+    audio.preload = 'none';
+    trackTitle.innerHTML = playList[index].title; //인덱스 타이틀
     volumeBar.style.height = audio.volume * 100 + '%';
     volumeLength = volumeBar.css('height');
 
@@ -295,7 +295,7 @@ var AudioPlayer = (function() {
       }
     }
 
-    function plActive() {
+    function plActive() { //플레이리스트 활성화
       if(audio.paused) {
         plLi[index].classList.remove('pl-current');
         return;
@@ -317,17 +317,17 @@ var AudioPlayer = (function() {
 
 
 /**
- *  Player methods
+ *  Player methods 플레이어 방법
  */
   function error() {
     !isEmptyList() && next();
   }
-  function play() {
+  function play() { //플레이
 
     index = (index > playList.length - 1) ? 0 : index;
     if(index < 0) index = playList.length - 1;
 
-    if(isEmptyList()) {
+    if(isEmptyList()) { //비어있으면 비어잇음
       empty();
       return;
     }
@@ -335,7 +335,7 @@ var AudioPlayer = (function() {
     played.push(index)
 
     audio.src = playList[index].file;
-    audio.preload = 'auto';
+    audio.preload = 'none';
     document.title = trackTitle.innerHTML = playList[index].title;
     audio.play();
     notify(playList[index].title, {
@@ -346,7 +346,7 @@ var AudioPlayer = (function() {
     plActive();
   }
 
-  function prev() {
+  function prev() { //이전
     if (played.length > 1) {
       index = played.splice(-2)[0];
     } else {
@@ -356,7 +356,7 @@ var AudioPlayer = (function() {
     play();
   }
 
-  function next(interactive) {
+  function next(interactive) { //다음
     if (shuffling) {
       if (shuffling.length === 0) {
 	if (repeating || interactive) {
@@ -385,11 +385,11 @@ var AudioPlayer = (function() {
     play();
   }
 
-  function isEmptyList() {
+  function isEmptyList() { //비어있음?
     return playList.length === 0;
   }
 
-  function empty() {
+  function empty() { //비어잇음
     audio.pause();
     audio.src = '';
     trackTitle.innerHTML = 'queue is empty';
@@ -400,7 +400,7 @@ var AudioPlayer = (function() {
     pl.innerHTML = '<div class="pl-empty">PlayList is empty</div>';
   }
 
-  function playToggle() {
+  function playToggle() { //재생 토글
     if(isEmptyList()) {
       return;
     }
@@ -419,7 +419,7 @@ var AudioPlayer = (function() {
     plActive();
   }
 
-  function volumeToggle() {
+  function volumeToggle() { //볼륨토글
     if(audio.muted) {
       if(parseInt(volumeLength, 10) === 0) {
         volumeBar.style.height = '100%';
