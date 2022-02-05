@@ -7,6 +7,7 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/AudioPlayer.css">
+    <link rel="stylesheet" href="css/style.css">
     <style>
 
     #player{
@@ -19,28 +20,35 @@
   </head>
 
   <body>
-      <!-- Audio player container-->
-     <div id='player'></div>
+      
+     
 
     <!-- Audio player js begin-->
     <script src="js/AudioPlayer.js"></script>
 
-    <script>
-        // test image for web notifications
-        var iconImage = null;
-
-        AP.init({
-            container:'#player',//a string containing one CSS selector
-            volume   : 0.7,
-            autoPlay : true,
-            notification: false,
-            playList: [
-                {'icon': iconImage, 'title': '고양이', 'file': 'https://docs.google.com/uc?export=open&id=1N_f8KnfVssWdBsBQOLuqjsbwbNZZeZXw'},
-                {'icon': iconImage, 'title': '가을아침', 'file': 'https://docs.google.com/uc?export=open&id=1V1JHZsKGn8wNdFtaPtW2isSlGZcRNrJA'}
-          ]
-        });
-    </script>
+     
+    
+    
+    <div class="searchbox">
+      <div class="header">
+        <!-- Control buttons -->
+        <div id="myBtnContainer">
+          <button class="btn active" onclick="filter2('고')">고세구</button>
+          <button class="btn" onclick="filter2('릴')">릴파</button>
+          <button class="btn" onclick="filter2('아')">아이네</button>
+          <button class="btn" onclick="filter2('징')">징버거</button>
+          <button class="btn" onclick="filter2('챤')">비챤</button>
+          <script type="text/javascript" src="js/script2.js"></script>
+        </div>
+        <input onkeyup="filter()" type="text" id="value" placeholder="Type to Search">
+      </div>
+      <!-- Audio player container-->
+      <div id='player'></div>
+        
+      </div>
+    </div>
+    
+    <script src="js/gosegu.js"></script>
     <!-- Audio player js end-->
-
   </body>
 </html>
