@@ -51,6 +51,6 @@ AP.init({
         { 'icon': iconImage, 'title': '신호등', 'file': 'https://docs.google.com/uc?export=open&id=1nf106dMgyOyQZtPqwR5m78_J8DG4bo-6' },
         { 'icon': iconImage, 'title': 'Back Number 크리스마스', 'file': 'https://docs.google.com/uc?export=open&id=16kcccpQGqpuLHyWvZATlpndoYVATbmEy' },
         { 'icon': iconImage, 'title': '이소라 - Track9', 'file': 'https://docs.google.com/uc?export=open&id=1evENWHfLvN4L0KOCe6DFYjjX8IZ5qHTg' },
-        { 'icon': iconImage, 'title': '이하이 - 홀로', 'file': 'https://docs.google.com/uc?export=open&id=19LKDzW1VwKZ2sEAPj81Bg4xtesyxtZOC },
+        { 'icon': iconImage, 'title': '이하이 - 홀로', 'file': 'https://docs.google.com/uc?export=open&id=19LKDzW1VwKZ2sEAPj81Bg4xtesyxtZOC' },
     ]
 });
