@@ -8,7 +8,6 @@ AP.init({
     autoPlay: false,
     notification: false,
     playList: [
-        { 'icon': iconImage, 'title': '10cm - pet', 'file': 'https://docs.google.com/uc?export=open&id=1sX1YTMYhHVqeDRbi5xX76W6Mqg9IOxMP' },
         { 'icon': iconImage, 'title': '김광진 - 편지', 'file': 'https://docs.google.com/uc?export=open&id=1MBvW75CIVlmcDCdYX0x3sZIh7su9VuUK' },
         { 'icon': iconImage, 'title': '호랑수월가', 'file': 'https://docs.google.com/uc?export=open&id=1WSYSyNeUfD3OeAMCjXbixNsNFZLSfC93' },
         { 'icon': iconImage, 'title': '아무것도 아니야', 'file': 'https://docs.google.com/uc?export=open&id=1qdPF46m4K5-ZGK1BJ8Uufh0rtO67paej' },
