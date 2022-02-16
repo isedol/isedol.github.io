@@ -52,8 +52,12 @@ https://drive.google.com/drive/folders/1leAdDuiTks3LuyQjOzmXBky8l2jGaitC
 
 https://drive.google.com/file/d/1JUs04jwYV7XsDBnYUOmtZLZq2pkWOmof/view
 
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
-ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+예약종료 기능이 있으면 좋겠음
+
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
 js html 하나로 통합
 
