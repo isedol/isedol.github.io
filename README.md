@@ -23,6 +23,36 @@ https://drive.google.com/file/d/공유주소/view?usp=sharing
 
 https://docs.google.com/uc?export=open&id=공유주소
 
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+적용됨 :
+
+https://drive.google.com/drive/folders/1WPRFu37kM8JZqF_A3FC0ivK2GJn5_saM
+
+https://drive.google.com/drive/folders/1YZdV6Wm0SD8HmoIukgEOuylkEvjxFmhz (징버거 최신화 해야됨)
+
+https://drive.google.com/drive/folders/15Sf8arsFwZ4mVGHjFkgXLFpahusDXY4e
+
+https://drive.google.com/drive/folders/1aKomb7ZpmjZEbl_NFd586PenT_hhi0zO
+
+https://drive.google.com/drive/folders/1AGNAAv-l67fFnk26rZUOMkalKb6GLEOA
+
+
+적용안됨 : 
+
+https://drive.google.com/file/d/1223PhgRnwq43rWVbra2q5Z_80nQBGWq2/view
+
+https://drive.google.com/file/d/1J6RzEfvWYP-xSBoYdk8OuQkeNMszkJ5r/view
+
+https://drive.google.com/file/d/15D_XzBWkW16TVVo5Dl6o6Bgjxq2B63Qi/view
+
+https://drive.google.com/drive/folders/1aeQRPVF-bEqzh_yHQ1cibgRphUcWd8y7 (징버거 최신화 해야됨)
+
+https://drive.google.com/drive/folders/1leAdDuiTks3LuyQjOzmXBky8l2jGaitC
+
+https://drive.google.com/file/d/1JUs04jwYV7XsDBnYUOmtZLZq2pkWOmof/view
+
+
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
 js html 하나로 통합
