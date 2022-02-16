@@ -4,6 +4,8 @@
 
 https://github.com/dyghdh/google-drive-mp3-crawler
 
+50개씩밖에 못부름 가끔 몇개 못부를때 있음 조심
+
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
 예약종료 기능이 있으면 좋겠음
