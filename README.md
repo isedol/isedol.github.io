@@ -16,6 +16,7 @@ python selenium 으로
 {'icon': iconImage, 'title': '파일명', 'file': 'https://docs.google.com/uc?export=open&id=공유주소'},
 
 
+
 https://drive.google.com/file/d/공유주소/view?usp=sharing
 
 공유누르면 위처럼 뜨는데 아래처럼 바꿔야됨
