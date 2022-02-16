@@ -6,7 +6,7 @@ https://github.com/dyghdh/google-drive-mp3-crawler
 
 50개씩밖에 못부름 가끔 몇개 못부를때 있음 조심
 
-초반 가져오는걸 api로 땡겨야겟음
+api로 땡겨야겟음
 
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
@@ -18,7 +18,7 @@ https://github.com/dyghdh/google-drive-mp3-crawler
 
 js html 하나로 통합
 
-플레이리스트 비우기 함수를 쓴담에 다시채우는 함수를써야됨
+detroy? 플레이리스트 비우기 함수를 쓴담에 다시채우는 함수를써야됨
 
 (안해도 대역폭 차이 안날거같음)
 
