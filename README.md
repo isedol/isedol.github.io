@@ -8,6 +8,7 @@ https://github.com/dyghdh/google-drive-mp3-crawler
 
 예약종료 기능이 있으면 좋겠음
 
+아이폰에서 안되는 이슈
 
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
