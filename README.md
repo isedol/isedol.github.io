@@ -1,6 +1,14 @@
 # isedol.github.io
 
-python selenium 으로
+
+
+구글 드라이브 API로 하는 방법
+
+https://rpubs.com/hkboo/google_drive_api
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+python selenium 으로 하는 방법
 
 구글 드라이브 주소 : https://drive.google.com/drive/u/0/folders/1wFN8wByUHEeV5-1CDpIFlfh-S9HFtbuB
 
