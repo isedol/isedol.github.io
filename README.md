@@ -1,6 +1,6 @@
 # isedol.github.io
 
-python selenium
+python selenium 으로
 
 구글 드라이브 주소 : https://drive.google.com/drive/u/0/folders/1wFN8wByUHEeV5-1CDpIFlfh-S9HFtbuB
 
