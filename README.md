@@ -20,6 +20,7 @@ js html 하나로 통합
 (안해도 대역폭 차이 안날거같음)
 
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
 대역폭
 
 https://ake.kr/2018/12/31/static-page-site-management-in-github-pages/#jekyll-first%EC%9D%98-github-pages (이게더 좋음)
