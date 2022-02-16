@@ -1,15 +1,26 @@
 # isedol.github.io
-제목과 주소를
 
-{'icon': iconImage, 'title': '고양이', 'file': 'https://docs.google.com/uc?export=open&id=1N_f8KnfVssWdBsBQOLuqjsbwbNZZeZXw'},
+python selenium
 
-{'icon': iconImage, 'title': '가을아침', 'file': 'https://docs.google.com/uc?export=open&id=1V1JHZsKGn8wNdFtaPtW2isSlGZcRNrJA'}
+구글 드라이브 주소 : https://drive.google.com/drive/u/0/folders/1wFN8wByUHEeV5-1CDpIFlfh-S9HFtbuB
 
-과같이 크롤링해서 txt파일로 출력한 다음에 js에 복붙
-
-https://drive.google.com/drive/u/0/folders/1N2BMXAMXVZBrGJPXPWa3uOdu0tougsGQ 드가서 제목 따고 클릭하고 주소따고 
+를 넣으면 파일명과 공유주소를 크롤링 해서 다음과 같이 txt파일로 출력해서 js에 복붙
 
 
+{'icon': iconImage, 'title': '파일명', 'file': 'https://docs.google.com/uc?export=open&id=공유주소'},
+
+{'icon': iconImage, 'title': '파일명', 'file': 'https://docs.google.com/uc?export=open&id=공유주소'},
+
+{'icon': iconImage, 'title': '파일명', 'file': 'https://docs.google.com/uc?export=open&id=공유주소'},
+
+{'icon': iconImage, 'title': '파일명', 'file': 'https://docs.google.com/uc?export=open&id=공유주소'},
+
+
+https://drive.google.com/file/d/공유주소/view?usp=sharing
+
+공유누르면 위처럼 뜨는데 아래처럼 바꿔야됨
+
+https://docs.google.com/uc?export=open&id=공유주소
 
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
