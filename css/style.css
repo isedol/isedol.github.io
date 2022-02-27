@@ -9,6 +9,9 @@ body{
     margin: 0px auto;
     
   }
+  .asd{
+    visibility: hidden;
+  }
   .header{
     background: #ECDFBF;
     overflow: hidden;
@@ -17,6 +20,9 @@ body{
   }
 
   @media ( min-width: 481px ) {
+    .asd{
+      visibility: visible;
+    }
     .searchbox{
       width: 50%;
       margin: 0px auto;
