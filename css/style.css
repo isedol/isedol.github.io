@@ -10,7 +10,7 @@ body{
     
   }
   .asd{
-    visibility: hidden;
+    visibility: visible;
   }
   .header{
     background: #ECDFBF;
@@ -21,7 +21,7 @@ body{
 
   @media ( min-width: 481px ) {
     .asd{
-      visibility: visible;
+      visibility: hidden;
     }
     .searchbox{
       width: 50%;
