@@ -9,7 +9,7 @@ body{
     margin: 0px auto;
     
   }
-  .asd{
+  .link{
     visibility: visible;
   }
   .header{
@@ -20,7 +20,7 @@ body{
   }
 
   @media ( min-width: 481px ) {
-    .asd{
+    .link{
       visibility: hidden;
     }
     .searchbox{
